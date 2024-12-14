@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: '&1Another Bungee server'
+  motd: '&1TSPSonline'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -12,7 +12,7 @@ listeners:
   - lobby
   bind_local_address: false
   host: 127.0.0.1:25577
-  max_players: 1
+  max_players: 150
   tab_size: 60
   force_default_server: true
 remote_ping_cache: -1
@@ -39,7 +39,7 @@ remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
 stats: 614623bd-e602-4a2e-b09d-0acb68d88c3e
-online_mode: false
+online_mode: true
 forge_support: true
 disabled_commands:
 - disabledcommandhere
